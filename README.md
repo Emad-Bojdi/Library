@@ -1,5 +1,5 @@
 # Library Books
-<b>A library for books and it's informations.</b><br/>
+<b>A library for books and it's informations.</b> you can like your favorate books.<br/>
 .<br/>
 I used <b>Vitejs</b> for better performance.<br/>
 .<br/>
