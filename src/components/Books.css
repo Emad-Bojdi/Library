@@ -1,0 +1,91 @@
+.Main{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Container {
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    margin-top:100px;
+    
+}
+.Favorite{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(90, 7, 192);
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 15px;
+
+}
+.Info{
+    background-color: rgba(154, 71, 255,0.2);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Info img{
+    width:50px;
+    padding:5px;
+}
+.Info h3{
+    padding-left: 10px;
+}
+.BookCard{
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 15px ;
+}
+.Image{
+    display:flex ;
+    justify-items: center;
+    align-items: center;
+    width: 20%;
+}
+.Image > img{
+    border-radius: 15px;
+}
+.Detail{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.BookData{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap:20px;
+}
+.BookData > p{
+    color: rgb(122, 122, 122);
+
+}
+.Parent{
+    width: 35px;
+    height: 35px;
+    background-color: inherit;
+    border:none;
+    cursor: pointer;
+}
+.Parent:focus{
+    background-color: inherit;
+}
+.Like{
+    font-size: xx-large;
+    color: aliceblue;
+}

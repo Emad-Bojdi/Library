@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+.SearchBar{
+    width:33%;
+    height:40px;
+    background-color: azure;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size:medium;
+
+}
+.SearchBar::placeholder{
+
+}
+.SearchBar:focus{
+    border: none;
+    outline: none;
+}
+.Searcher{
+    width:40px;
+    height: 40px;
+    background-color: darkslateblue;
+    border-radius: 5px;
+    margin-left: 10px;
+    position: relative;
+    border:none;
+    cursor: pointer;
+}
+.Icon{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 600;
+    position: absolute;
+    right: 11px;
+    bottom: 12px;
+}
+
